@@ -1,0 +1,3 @@
+		// Typically the call will look like 
+ 		// found = externalUserMgr.searchUser(userName); 
+ 		// You may need to catch potential exception and display the appropriate 

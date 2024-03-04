@@ -1,0 +1,6 @@
+                if each.active:
+                    each.move()
+                    screen.blit(each.image1, each.rect)
+                else:
+                    if not(delay % 3):
+                        if e1_destroy_index ==0:

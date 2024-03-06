@@ -1,0 +1,2 @@
+                        sql2 = "insert into ssjzw (url,company,area,phonenum,uploadTime,insertTime) value ('%s','%s','%s','%s','%s','%s')" % (num,company,area,phonenum,uploadTime,datetime.datetime.now())
+                        rs=dbmysql.execute(sql2)

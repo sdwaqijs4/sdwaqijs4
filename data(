@@ -1,0 +1,6 @@
+def process_data(threadName, q):
+    while not exitFlag:
+        queueLock.acquire()
+        if not workQueue.empty():
+            data = q.get()
+            queueLock.release()

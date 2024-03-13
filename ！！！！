@@ -1,0 +1,5 @@
+	printf("%d*%d:\n",ROW,COL);
+	for( i=0; i<ROW; i++ )
+	{
+		for( j=0; j<COL; j++ )
+		{

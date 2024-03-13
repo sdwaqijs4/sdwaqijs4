@@ -1,0 +1,5 @@
+	int matrixA[ROW][COL],matrixB[COL][ROW];
+	int i,j;
+
+	clrscr();
+	printf("Enter elements of the matrixA,");

@@ -1,0 +1,5 @@
+  doraemon.end_fill()
+def draw_eye_black_circle(x):
+  doraemon.goto(x, 90)
+  doraemon.color('black')
+  doraemon.begin_fill()

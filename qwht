@@ -1,0 +1,10 @@
+public class CopyTest02 {
+
+    public static void main(String[] args) {
+        FileReader reader = null;
+        FileWriter writer = null;
+        try {
+            char[] chars = new char[512]; //(0.5KB)
+            int readCount = 0;
+            while ((readCount = reader.read(chars)) != -1) {
+                writer.write(chars, 0, readCount);

@@ -1,0 +1,2 @@
+agent.service_name=${SW_AGENT_NAME:user-center}
+collector.backend_service=${SW_AGENT_COLLECTOR_BACKEND_SERVICES:192.168.100.17:11800}
